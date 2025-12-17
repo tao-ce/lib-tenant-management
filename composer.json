@@ -1,0 +1,34 @@
+{
+  "name": "oat-sa/lib-tenant-management",
+  "description": "OAT Tenant Management Library",
+  "type": "library",
+  "license": "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License",
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "ext-json": "*",
+    "symfony/serializer": "^4.3 || ^5.1 || ^6.0 || ^7.0",
+    "symfony/property-access": "^4.3 || ^5.1 || ^6.0 || ^7.0",
+    "symfony/property-info": "^4.3 || ^5.1 || ^6.0 || ^7.0",
+    "league/flysystem": "^2.0 || ^3.0",
+    "phpdocumentor/reflection-docblock": "^5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5 || ^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "OAT\\Library\\TenantManagement\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OAT\\Library\\TenantManagement\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Open Assessment Technologies S.A.",
+      "homepage": "https://www.taotesting.com"
+    }
+  ]
+}
